@@ -3,7 +3,7 @@ import Card from "./Card";
 
 const Gallery = () => {
   return (
-    <section className="px-6 pt-4 xl:px-40 xl:pt-16">
+    <section className="px-6 pt-4 xl:px-40 xl:pt-16 mb-40">
       <div className="flex md:justify-between justify-center">
         <h1 className="md:text-5xl text-4xl uppercase font-light">
           Our Creations
@@ -15,7 +15,7 @@ const Gallery = () => {
 
       <div
         className="flex flex-col gap-y-4
-                      xl:grid xl:grid-cols-4 xl:gap-6 "
+                      xl:grid xl:grid-cols-4 xl:gap-6 mt-20"
       >
         <Card title="deep earth" img="bg-img0-sm xl:bg-img0-xl" />
 
@@ -34,7 +34,7 @@ const Gallery = () => {
         <Card title="make it fisheye" img="bg-img7-sm xl:bg-img7-xl" />
       </div>
 
-      <div className="flex justify-center xl:hidden ">
+      <div className="flex justify-center xl:hidden mt-12 ">
         <button className="border-2 border-black tracking-widest uppercase font-semibold p-2 w-32 hover:bg-black hover:text-white duration-200 transition">
           See All
         </button>
