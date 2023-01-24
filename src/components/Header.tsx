@@ -19,15 +19,25 @@ const Header = () => {
             className={`gap-10
                       ${
                         Menu
-                          ? "absolute gap-6 top-40 left-60 flex flex-col "
+                          ? "absolute gap-6 top-40 left-52 flex flex-col bg-black z-10"
                           : "hidden"
                       } xl:flex lg:flex md:flex`}
           >
-            <li>About</li>
-            <li>Careers</li>
-            <li>Events</li>
-            <li>Products</li>
-            <li>Support</li>
+            <li className="hover:border-b-2 hover:border-white cursor-pointer">
+              About
+            </li>
+            <li className="hover:border-b-2 hover:border-white cursor-pointer">
+              Careers
+            </li>
+            <li className="hover:border-b-2 hover:border-white cursor-pointer">
+              Events
+            </li>
+            <li className="hover:border-b-2 hover:border-white cursor-pointer">
+              Products
+            </li>
+            <li className="hover:border-b-2 hover:border-white cursor-pointer">
+              Support
+            </li>
           </ul>
         </div>
 
