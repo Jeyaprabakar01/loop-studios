@@ -1,4 +1,6 @@
 import React from "react";
+import Footer from "./components/Footer";
+import Gallery from "./components/Gallery";
 import Header from "./components/Header";
 import IntroContainer from "./components/IntroContainer";
 
@@ -7,6 +9,8 @@ function App() {
     <>
       <Header />
       <IntroContainer />
+      <Gallery />
+      <Footer />
     </>
   );
 }
