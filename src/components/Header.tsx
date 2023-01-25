@@ -19,7 +19,7 @@ const Header = () => {
             className={`gap-10
                       ${
                         Menu
-                          ? "absolute gap-6 top-40 left-52 flex flex-col bg-black z-10"
+                          ? "absolute gap-6 top-16 left-4 px-48 py-48 flex flex-col bg-black z-10 "
                           : "hidden"
                       } xl:flex lg:flex md:flex`}
           >
