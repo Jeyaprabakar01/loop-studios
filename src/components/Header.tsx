@@ -12,14 +12,14 @@ const Header = () => {
           <img
             src={HamburgerIcon}
             alt=""
-            className="xl:hidden lg:hidden md:hidden"
+            className="xl:hidden lg:hidden md:hidden z-20"
             onClick={() => setMenu(!Menu)}
           />
           <ul
             className={`gap-10
                       ${
                         Menu
-                          ? "absolute gap-6 top-40 left-52 flex flex-col bg-black z-10"
+                          ? "absolute gap-6 top-0 left-0 right-0 bottom-0 px-44 py-64 flex flex-col bg-black z-10"
                           : "hidden"
                       } xl:flex lg:flex md:flex`}
           >
