@@ -13,7 +13,7 @@ const Gallery = () => {
     },
     {
       title: "soccer team vr",
-      classNames: "bg-img2-sm xl:bg-img3-xl",
+      classNames: "bg-img2-sm xl:bg-img2-xl",
     },
     {
       title: "the grid",
