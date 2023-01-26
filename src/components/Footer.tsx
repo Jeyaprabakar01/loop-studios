@@ -13,7 +13,7 @@ const Footer = () => {
   return (
     <footer className="bg-black p-10">
       <Section>
-        <div className="container mx-auto flex flex-col items-center xl:items-start xl:flex-row justify-between xl:px-32">
+        <div className=" mx-auto flex flex-col items-center xl:items-start xl:flex-row justify-between xl:px-32">
           <div className="flex flex-col gap-5">
             <img className="xl:w-2/5 w-full" src={logoIcon} alt="" />
             <ul className="flex flex-col items-center xl:items-start xl:flex-row text-white gap-2 xl:gap-10">

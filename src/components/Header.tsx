@@ -38,7 +38,7 @@ const Header = () => {
             </ul>
           </div>
 
-          <div className="absolute right-1 bottom-80 xl:right-4 xl:bottom-48 mx-auto container flex justify-center xl:justify-start">
+          <div className="absolute right-1 bottom-80 xl:left-1 xl:bottom-48 mx-auto flex justify-center xl:justify-start">
             <article className="xl:p-10 p-6 xl:ml-44 xl:text-7xl text-4xl xl:w-2/5 w-4/5 border-white border-2">
               <h1 className="uppercase font-light text-white">
                 immersive experiences that deliver
