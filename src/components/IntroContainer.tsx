@@ -1,4 +1,3 @@
-import React from "react";
 import IntroImg from "../assets/img/image-interactive.jpg";
 
 const IntroContainer = () => {
@@ -10,7 +9,7 @@ const IntroContainer = () => {
           <h1 className="font-light xl:text-5xl text-4xl text-center">
             THE LEADER IN INTERACTIVE VR
           </h1>
-          <p className="mt-10 font-semibold text-gray-700 xl:text-left text-center">
+          <p className="mt-10  font-semibold text-gray-400 xl:text-left text-center">
             Founded in 2011, Loopstudios has been producing world-class virtual
             reality projects for some of the best companies around the globe.
             Our award-winning creations have transformed businesses through

@@ -1,8 +1,10 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import HamburgerIcon from "../assets/icon/icon-hamburger.svg";
 
 const Header = () => {
-  const [Menu, setMenu] = useState(false);
+  const navigation = ["About", "Careers", "Events", "Products", "Support"];
+
+  const [menu, setMenu] = useState(false);
 
   return (
     <main className="bg-mobile-image-hero xl:bg-image-hero h-screen relative bg-cover ">
@@ -13,31 +15,24 @@ const Header = () => {
             src={HamburgerIcon}
             alt=""
             className="xl:hidden lg:hidden md:hidden z-20"
-            onClick={() => setMenu(!Menu)}
+            onClick={() => setMenu(!menu)}
           />
+
           <ul
             className={`gap-10
                       ${
-                        Menu
-                          ? "absolute gap-6 top-0 left-0 right-0 bottom-0 px-44 py-64 flex flex-col bg-black z-10"
+                        menu
+                          ? "absolute gap-6 top-0 left-0 right-0 bottom-0 flex flex-col items-center justify-center bg-black z-10"
                           : "hidden"
                       } xl:flex lg:flex md:flex`}
           >
-            <li className="hover:border-b-2 hover:border-white cursor-pointer">
-              About
-            </li>
-            <li className="hover:border-b-2 hover:border-white cursor-pointer">
-              Careers
-            </li>
-            <li className="hover:border-b-2 hover:border-white cursor-pointer">
-              Events
-            </li>
-            <li className="hover:border-b-2 hover:border-white cursor-pointer">
-              Products
-            </li>
-            <li className="hover:border-b-2 hover:border-white cursor-pointer">
-              Support
-            </li>
+            {navigation.map((nav, key) => {
+              return (
+                <li className="hover:underline cursor-pointer" key={key}>
+                  {nav}
+                </li>
+              );
+            })}
           </ul>
         </div>
 
