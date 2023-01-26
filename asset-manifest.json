@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/loop-studios/static/css/main.5a2e24b6.css",
-    "main.js": "/loop-studios/static/js/main.d976afee.js",
+    "main.css": "/loop-studios/static/css/main.2b4bfa23.css",
+    "main.js": "/loop-studios/static/js/main.0df505fc.js",
     "static/js/787.d9598093.chunk.js": "/loop-studios/static/js/787.d9598093.chunk.js",
     "static/media/image-hero.jpg": "/loop-studios/static/media/image-hero.9b5aacead42e955824d3.jpg",
     "static/media/image-from-above.jpg": "/loop-studios/static/media/image-from-above.f316f3f3afc353415f71.jpg",
     "static/media/image-interactive.jpg": "/loop-studios/static/media/image-interactive.1d330522c9ca6cf07a9c.jpg",
     "static/media/image-curiosity.jpg": "/loop-studios/static/media/image-curiosity.7f14665a1469d012697f.jpg",
-    "static/media/image-soccer-team.jpg": "/loop-studios/static/media/image-soccer-team.18a63d8df06f1baa727f.jpg",
     "static/media/image-night-arcade.jpg": "/loop-studios/static/media/image-night-arcade.a4f25d3b0c5db392403a.jpg",
     "static/media/image-deep-earth.jpg": "/loop-studios/static/media/image-deep-earth.2a157951527da6e48ac5.jpg",
     "static/media/image-grid.jpg": "/loop-studios/static/media/image-grid.a8ce4f2b638181fb6920.jpg",
     "static/media/image-fisheye.jpg": "/loop-studios/static/media/image-fisheye.ff97b54ec44101e44215.jpg",
     "static/media/image-pocket-borealis.jpg": "/loop-studios/static/media/image-pocket-borealis.0b89db1f6a9c0e56dcfd.jpg",
+    "static/media/image-soccer-team.jpg": "/loop-studios/static/media/image-soccer-team.18a63d8df06f1baa727f.jpg",
     "static/media/logo.svg": "/loop-studios/static/media/logo.5b4e652aff88b09ef8f1d465f3db445b.svg",
     "static/media/icon-instagram.svg": "/loop-studios/static/media/icon-instagram.8d0df55595e16bac2d486efccdc6b4b3.svg",
     "index.html": "/loop-studios/index.html",
@@ -20,12 +20,12 @@
     "static/media/icon-twitter.svg": "/loop-studios/static/media/icon-twitter.5dc7711ff2433b3b89ee7742a407e3bd.svg",
     "static/media/icon-facebook.svg": "/loop-studios/static/media/icon-facebook.e9773e52bc64ea377cb95af7ccb6877e.svg",
     "static/media/icon-hamburger.svg": "/loop-studios/static/media/icon-hamburger.5153cb809501d4309c231954bc0f9ec2.svg",
-    "main.5a2e24b6.css.map": "/loop-studios/static/css/main.5a2e24b6.css.map",
-    "main.d976afee.js.map": "/loop-studios/static/js/main.d976afee.js.map",
+    "main.2b4bfa23.css.map": "/loop-studios/static/css/main.2b4bfa23.css.map",
+    "main.0df505fc.js.map": "/loop-studios/static/js/main.0df505fc.js.map",
     "787.d9598093.chunk.js.map": "/loop-studios/static/js/787.d9598093.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.5a2e24b6.css",
-    "static/js/main.d976afee.js"
+    "static/css/main.2b4bfa23.css",
+    "static/js/main.0df505fc.js"
   ]
 }
