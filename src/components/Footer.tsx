@@ -32,7 +32,7 @@ const Footer = () => {
                   key={key}
                   src={icon}
                   alt="icon"
-                  className="hover:border-b-2 hover:border-white cursor-pointer"
+                  className="hover:underline cursor-pointer"
                 />
               );
             })}
