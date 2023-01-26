@@ -17,10 +17,7 @@ const Footer = () => {
           <ul className="flex flex-col items-center xl:items-start xl:flex-row text-white gap-2 xl:gap-10">
             {navigation.map((nav, key) => {
               return (
-                <li
-                  className="hover:border-b-2 hover:border-white cursor-pointer"
-                  key={key}
-                >
+                <li className="hover:underline cursor-pointer" key={key}>
                   {nav}
                 </li>
               );
